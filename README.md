@@ -1,7 +1,7 @@
 # Crime Record & Investigation Database
 
 ## Overview
-This project implements a crime record and investigation database using PostgreSQL. It includes tables for officers, cases, suspects, and evidence, along with triggers to log evidence updates and views for common queries.
+This project implements a crime record and investigation database using ORACLE SQL. It includes tables for officers, cases, suspects, and evidence, along with triggers to log evidence updates and views for common queries.
 
 ## Database Schema
 - **Officers**: Stores officer details.
@@ -18,7 +18,7 @@ This project implements a crime record and investigation database using PostgreS
 - `crime_queries.sql`: Contains useful queries for data retrieval.
 
 ## Setup Instructions
-1. Install PostgreSQL if not already installed.
+1. Install if not already installed.
 2. Create a new database for the project.
 3. Run the SQL scripts in the following order:
    - `crime_schema.sql`
@@ -33,10 +33,3 @@ This project implements a crime record and investigation database using PostgreS
 - Test triggers by updating evidence records and checking the `EvidenceUpdatesLog`.
 - Test views by querying `OfficerWorkload` and `UnresolvedCases`.
 
-## Future Enhancements
-- Develop a backend API to interact with the database.
-- Create a frontend interface for easier data management.
-- Add more detailed audit logging and reporting features.
-
-## Contact
-For questions or contributions, please contact the project maintainer.
