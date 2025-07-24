@@ -1,7 +1,7 @@
 # Crime Record & Investigation Database
 
 ## Overview
-This project implements a crime record and investigation database using ORACLE SQL. It includes tables for officers, cases, suspects, and evidence, along with triggers to log evidence updates and views for common queries.
+This project implements a crime record and investigation database using ORACLE SQL DEVELOPER. It includes tables for officers, cases, suspects, and evidence, along with triggers to log evidence updates and views for common queries.
 
 ## Database Schema
 - **Officers**: Stores officer details.
