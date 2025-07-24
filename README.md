@@ -8,7 +8,7 @@ This project implements a crime record and investigation database using ORACLE S
 - **Cases**: Stores case details including status and lead officer.
 - **Suspects**: Stores suspect details linked to cases.
 - **Evidence**: Stores evidence details linked to cases and officers.
-- **EvidenceUpdatesLog**: Logs updates to evidence
+- **EvidenceUpdatesLog**: Logs updates to evidence.
 
 ## Files
 - `crime_schema.sql`: Contains table creation and indexes.
